@@ -1,5 +1,7 @@
 allprojects {
     repositories {
+        // 添加阿里云镜像
+        maven { url 'https://maven.aliyun.com/repository/public' }
         google()
         mavenCentral()
     }

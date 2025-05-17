@@ -79,7 +79,6 @@ class _MainPageState extends State<MainPage> with RestorationMixin {
             children: [
               HomePage.create(),
               MarketPage.create(),
-              // Center(child: Text('行情')),
               Center(child: Text('交易')),
               UserPage(),
             ],
